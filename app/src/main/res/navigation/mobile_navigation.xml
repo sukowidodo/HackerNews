@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_new">
+
+    <fragment
+        android:id="@+id/nav_new"
+        android:name="id.bitecode.telkom.ui.news.NewFragment"
+        android:label="New"
+        tools:layout="@layout/fragment_new" />
+
+    <fragment
+        android:id="@+id/nav_top"
+        android:name="id.bitecode.telkom.ui.top.TopFragment"
+        android:label="Top"
+        tools:layout="@layout/fragment_top" />
+
+    <fragment
+        android:id="@+id/nav_best"
+        android:name="id.bitecode.telkom.ui.best.BestFragment"
+        android:label="Best"
+        tools:layout="@layout/fragment_best" />
+</navigation>

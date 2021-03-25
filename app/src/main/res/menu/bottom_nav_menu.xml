@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_new"
+        android:icon="@drawable/ic_baseline_autorenew_24"
+        android:title="New" />
+
+    <item
+        android:id="@+id/nav_best"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Best" />
+
+    <item
+        android:id="@+id/nav_top"
+        android:icon="@drawable/ic_baseline_thumb_up_24"
+        android:title="Top" />
+
+</menu>
